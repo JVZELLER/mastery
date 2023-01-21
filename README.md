@@ -1,6 +1,6 @@
 # Mastery
 
-**TODO: Add description**
+Practice project from [Designing Elixir Systems with OTP](https://pragprog.com/titles/jgotp/designing-elixir-systems-with-otp/) book.
 
 ## Installation
 
