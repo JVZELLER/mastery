@@ -24,3 +24,9 @@ mastery-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Ignore Elixir Language Server files
+.elixir_ls/*
+
+# Ignore Dialyzer PLTs
+/priv/plts/
