@@ -14,10 +14,13 @@ defmodule Mastery.Core.Quiz do
 
   defstruct title: nil,
             mastery: 3,
-            templates: %{},
+            template: %{},
             used: [],
-            urrent_question: nil,
+            current_question: nil,
             last_response: nil,
             record: %{},
             mastered: []
+
+  @typedoc "Schema type"
+  @type t() :: %__MODULE__{}
 end

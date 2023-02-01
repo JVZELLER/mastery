@@ -4,4 +4,7 @@ defmodule Mastery.Core.Question do
   """
 
   defstruct ~w(asked substitutions template)a
+
+  @typedoc "Schema type"
+  @type t() :: %__MODULE__{}
 end
