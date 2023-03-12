@@ -11,7 +11,7 @@ defmodule Mastery.Core.Response do
   @type t() :: %__MODULE__{}
 
   @spec new(Quiz.t(), String.t(), String.t()) :: t()
-  def new(%Quiz{current_question: question, template: template} = quiz, email, answer) do
+  def new(%Quiz{current_question: question, templates: template} = quiz, email, answer) do
     checker = template.checker
     substitutions = question.substitutions
 
